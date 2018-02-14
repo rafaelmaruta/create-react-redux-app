@@ -4,4 +4,4 @@
 
 Passo a passo em:
 
-[https://medium.com/@rafaelmaruta/iniciando-com-redux-c14ca7b7dcf](https://medium.com/@rafaelmaruta/iniciando-com-redux-c14ca7b7dcf)
+[https://medium.com/reactbrasil/iniciando-com-redux-c14ca7b7dcf](https://medium.com/reactbrasil/iniciando-com-redux-c14ca7b7dcf)
