@@ -1,5 +1,5 @@
 {
-  "name": "create-redux-app",
+  "name": "create-react-redux-app",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
