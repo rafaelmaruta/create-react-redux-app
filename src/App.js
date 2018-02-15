@@ -5,6 +5,10 @@ import { clickButton } from './actions';
 import './App.css';
 
 class App extends Component {
+  state = {
+    inputValue: ''
+  }
+
   inputChange = event => {
     this.setState({
       inputValue: event.target.value
@@ -19,7 +23,11 @@ class App extends Component {
 
     return (
       <div className="App" style={{ paddingTop: '10px' }}>
-        <input type='text' onChange={this.inputChange} />
+        <input
+          onChange={this.inputChange}
+          type='text'
+          value={this.state.inputValue}
+        />
         <button onClick={() => clickButton(this.state.inputValue)}>
           Click me!
         </button>
