@@ -38,7 +38,7 @@ class App extends Component {
 }
 
 const mapStateToProps = store => ({
-  newValue: store.clickConfig.newValue
+  newValue: store.clickState.newValue
 });
 
 
